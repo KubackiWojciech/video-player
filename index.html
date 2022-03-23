@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="./style.css" rel="stylesheet">
+
+    <title>VideoPlayer</title>
+</head>
+<body>
+    <div id="movie-selector">
+            <img class="play-button" src="./video 2.png" onclick="renderVideo(0)">
+            <img class="play-button" src="./video 2.png" onclick="renderVideo(1)">
+            <img class="play-button" src="./video 3.png" onclick="renderVideo(2)">
+            <img class="play-button" src="./video 2.png" onclick="renderVideo(3)">
+        
+    </div>
+    <div class="disabled" id="player">
+        <video id="video-src" src="https://filesamples.com/samples/video/webm/sample_1280x720_surfing_with_audio.webm" controls></video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
